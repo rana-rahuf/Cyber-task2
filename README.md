@@ -6,8 +6,11 @@ Analyze a phishing email to identify key red flags and understand how phishing a
   **Sample phishing Email**:netflix@mnasdfkjasdf.org
   A phishing message impersonating Netflix was analyzed. The message claimed the user’s account was on hold due to billing issues and provided a link to "recover" the account.
   ## Spoofing:
-  - 🔴  A trustworthy company like Netflix would never use a strange or misspelled domain like @mnasdfkjasdf.org instead of @netflix.com ,@mailer.netflix.com.
-  - 🔴  It looks auto-generated or spoofed due to Random letters
-  - 🔴  The message "Your account is on hold. We're having some trouble with your billing information." trigger a quick emotional reaction.
+  -  A trustworthy company like Netflix would never use a strange or misspelled domain like @mnasdfkjasdf.org instead of @netflix.com ,@mailer.netflix.com.
+  -  It looks auto-generated or spoofed due to Random letters
+  -  The message "Your account is on hold. We're having some trouble with your billing information." trigger a quick emotional reaction.
+  -  not secure .it uses http instead of https.
+## 🚨 Final Verdict:
+This is definitely a spoofed email. It pretends to be from Netflix using a fake, auto-generated domain to steal login credentials or payment info.
   
       
